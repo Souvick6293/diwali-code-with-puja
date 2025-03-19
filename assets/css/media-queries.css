@@ -1,0 +1,334 @@
+/************************** RESPONSIVE ********************/
+
+@media(max-width:1920px){
+	.container{
+		max-width:calc(100% - 100px);
+		width:100%;
+		margin:0 auto;
+	}
+	
+}
+@media(min-width:1500px){
+	h1{
+		font-size:280px;
+		line-height: 150px;
+		letter-spacing: 10px;
+	}
+	h6{
+		font-size:40px;
+	}
+	.banner-heading h6 {
+		padding-top: 50px;
+	}
+	h1 span{
+		font-size:100px;
+	}
+	.diya {
+		width: 300px;
+	}
+	h4{
+		font-size:40px;
+	}
+	.diya-captions {
+		max-width: 400px;
+	}
+	.nav-link{
+		font-size:18px;
+	}
+	p{
+		font-size:18px;
+	}
+	h2{
+		font-size:50px;
+	}
+	.event-box-content p {
+		font-size: 17px;
+	}
+	.common-content {
+		max-width: 900px;
+		margin: 0 auto;
+	}
+	h5{
+		font-size: 35px;
+	}
+	.event-box-content h5 {
+		padding-bottom: 35px;
+	}
+	.footer-link-area ul li a {
+		font-size: 16px;
+	}
+	.footer-wrapper {
+		padding: 0 100px;
+	}
+	.outside-box {
+		max-width: 600px;
+	}
+}
+@media(max-width:1499px){
+	h1{
+		font-size:200px;
+		line-height: 120px;
+		letter-spacing: 10px;
+	}
+	h6{
+		font-size:40px;
+	}
+	h1 span{
+		font-size:70px;
+	}
+}
+@media (max-width: 1280px) {
+
+	h1{
+		font-size:180px;
+		line-height: 120px;
+		letter-spacing: 8px;
+	}
+}
+@media (max-width: 1199px) {
+	h1{
+		font-size:160px;
+		line-height: 100px;
+		letter-spacing: 8px;
+	}
+	.each-events-box p{
+		font-size:14px;
+		line-height:18px;
+	}
+	.each-events-box h2 {
+		color: #fff;
+		padding-bottom: 10px;
+	}
+	.outside-box {
+		padding: 50px;
+	}
+	.event-box-content {
+        padding: 20px 15px;
+	}
+	
+}
+@media (max-width: 1040px) {
+	.event-box-content h5 {
+		padding-bottom: 10px;
+		font-size:25px;
+	}
+	.each-events-box p {
+		font-size:13px;
+	}
+	.banner-section {
+		width: 100%;
+		overflow: hidden;
+	}
+}
+@media (max-width: 991px) {
+    .navbar-collapse {
+      display: none !important;
+    }
+    .nav-right-slide {
+      display: block;
+    }
+    .navbar-toggler {
+      display: block;
+      color: #fff;
+      font-size: 24px;
+    }
+	.about-section::before, .kali-temples-section::before {
+		width: 150PX;
+		height: 150px;
+	}
+	.about-section::after, .kali-temples-section::after {
+		width: 200px;
+    	height: 160px;
+	}
+	.event-box-content h5 {
+		padding-bottom: 30px;
+		font-size:30px;
+	}
+	.each-events-box p {
+		font-size:14px;
+	}
+	h1 {
+		font-size: 120px;
+		line-height: 90px;
+		text-align: center;
+		letter-spacing: 6px;
+	}
+	.common-content {
+		max-width: 100%;
+		margin: 0 auto;
+		padding: 0px 30px;
+	}
+	.map-btn {
+		font-size:14px;
+	}
+	.map-btn img {
+		width: 20px;
+	}
+  }
+  @media (max-width: 875px) {
+	h4 {
+		font-size: 25px;
+	}
+	h1 {
+        font-size: 100px;
+        line-height: 75px;
+        text-align: center;
+        letter-spacing: 3px;
+    }
+	h1 span {
+		font-family: "Dancing Script", cursive;
+		font-size: 50px;
+	}
+  }
+
+  @media (max-width: 767px) {
+	.diya {
+		width: 200px;
+	}
+	.container {
+        max-width: calc(100% - 60px);
+	}
+	h1 {
+        font-size: 85px;
+        line-height: 66px;
+        text-align: center;
+        letter-spacing: 2px;
+    }
+	h1 span {
+		font-size:40px;
+	}
+	.banner-heading h6 {
+		text-align: end;
+		padding-top: 6px;
+		font-size:20px;
+	}
+	h4 {
+        font-size: 22px;
+    }
+	p{
+		font-size:14px;
+	}
+	h2{
+		font-size:32px;
+	}
+	.common-content p {
+		padding: 10px 0;
+	}
+	.each-events-box{
+		max-width:400px;
+		margin: 0 auto;
+	}
+	.events-main-content{
+		max-width:100% !important;
+	}
+	.fill-question-box {
+		margin-top: -150px;
+	}
+	.contact-us-left-content h2 {
+		padding-top:20px;
+		padding-bottom:10px;
+	}
+	.outside-box {
+        padding: 30px;
+    }
+  }
+  @media (max-width: 575px) {
+	.slider-content h3 {
+		font-size:15px;
+	}
+	.slider-content h4{
+		font-size:12px;
+	}
+	.slider-content{
+		padding:0 10px;
+	}
+	.each-events-box {
+        max-width: 350px;
+	}
+	.swiper-button-next {
+		width: 30px;
+		height: 30px;
+	}
+	.swiper-button-next::after {
+		font-size: 14px;
+	}
+	.swiper-button-prev {
+        width: 30px;
+        height: 30px;
+    }
+	.swiper-button-prev::after {
+		font-size: 14px;
+	}
+	.rounded-social-buttons .social-button {
+		width:30px;
+		height:30px;
+		position: relative;
+	}
+	.rounded-social-buttons .fa-twitter, .fa-facebook-f, .fa-linkedin, .fa-youtube, .fa-instagram {
+		position: absolute;
+		top:50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		font-size:15px;
+	}
+	.banner-content{
+		text-align: center;
+		margin-top:70px;
+	}
+
+	.footer-wrapper {
+		padding:0;
+	}
+	h1 {
+        font-size: 80px;
+        line-height: 58px;
+        text-align: center;
+        letter-spacing: 2px;
+    }
+	.flame {
+		position: absolute;
+		top: -52px;
+		left: 50%;
+		transform: translateX(-50%);
+		width: 30px;
+		height: 50px;
+	}
+	.copyright p {
+		font-size:13px;
+	}
+  }
+  @media (max-width: 450px) {
+	.common-content {
+		padding:0;
+	}
+	h2 {
+        font-size: 28px;
+    }
+	.diwali-fireworks-wrapper img {
+		width: 45px;
+		top: -24px;
+	}
+	.outside-box {
+        padding: 30px 15px;
+    }
+	.footer-link-area ul {
+		gap: 8px;
+	}
+	
+	.footer-link-area ul li a {
+		font-size:12px;
+	}
+	.common-btn {
+		font-size:16px;
+	}
+	.event-box-content h5 {
+        padding-bottom: 16px;
+        font-size: 24px;
+    }
+}
+@media (max-width: 450px) {
+	.container {
+        max-width: calc(100% - 40px);
+    }
+	
+}

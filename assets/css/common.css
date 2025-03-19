@@ -1,0 +1,301 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	margin:0px;
+	padding:0px;
+	font-family: 'Gilroy';
+	font-size:16px;
+	color:#ffffff;
+	overflow-x: hidden;
+	background-color:#fff;
+}
+h1{
+	color: #FFF;
+	font-family: "Chewy", system-ui;
+	font-size: 150px;
+	font-style: normal;
+	line-height: 100px;
+	text-align: center;
+	letter-spacing: 8px;
+}
+h1 span{
+	font-family: "Dancing Script", cursive;
+	font-size:60px;
+}
+h2{
+	color: #000;
+	font-family: "Chewy", system-ui;
+	font-size: 40px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	text-align:center;
+}
+h4{
+	font-family: "Dancing Script", cursive;
+	font-size:30px;
+}
+h4 span{
+	font-family: "Chewy", system-ui;
+}
+h5{
+	font-family: "Chewy", system-ui;
+	font-size:30px;
+	color:#fff;
+}
+h6{
+	color: #FFF;
+	font-family: "Dancing Script", cursive;
+	font-size: 25px;
+	font-style: normal;
+	font-weight: 500;
+}
+p{
+	color: #FFF;
+	font-family: "Roboto", sans-serif;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+}
+/*------------------------------------*\
+	FONT RESET
+\*------------------------------------*/
+table{
+	border-collapse:collapse;
+	border-spacing:0;
+}
+fieldset,img{ 
+	border:0;
+}
+address,caption,cite,dfn,th,var{
+	font-style:normal;
+	font-weight:normal;
+}
+caption,th{
+	text-align:left;
+}
+q:before,q:after{
+	content:'';
+}
+abbr,acronym{
+	border:0;
+}
+a{
+	color:#fff;
+}
+/*------------------------------------*\
+	TYPOGRAPHY
+\*------------------------------------*/
+
+/*--- QUOTES ---*/
+blockquote{
+	margin:0 60px 0 45px;
+	border-left:5px solid #ccc;
+	padding-left:10px;
+	text-indent:-0.4em;
+}
+blockquote b{
+	display:block;
+	text-indent:0;
+}
+
+img{ 
+	max-width:100%; 
+	height:auto
+}
+a{
+	text-decoration:none;
+}
+ul{
+	margin:0;
+	padding:0;
+}
+ul li{
+	list-style:none;
+}
+/************************** Page CSS********************/
+.full-width{
+	width:100vw;
+	margin-left:-50vw;
+	left:50%;
+	position:relative;
+}
+.common-background-style{
+	background-position:center center;
+	background-size:cover;
+	background-repeat:no-repeat;
+}
+.common-btn{
+	background: transparent;
+	color: #FFF;
+	font-family: "Roboto", sans-serif;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+	text-transform: capitalize;
+	padding:10px 20px;
+	border-radius:25px;
+	outline:none;
+	border:1px solid #eeff00;
+	margin-top:15px;
+	transition: all 0.5s;
+}
+.common-btn:hover{
+	background-color: #eeff00;
+	color:#000;
+}
+.common-section{
+	padding:80px 0;
+}
+
+
+.rounded-social-buttons .social-button {
+	display: inline-block;
+	position: relative;
+	cursor: pointer;
+	width: 3.125rem;
+	height: 3.125rem;
+	border: 0.125rem solid transparent;
+	padding: 0;
+	text-decoration: none;
+	text-align: center;
+	color: #fefefe;
+	font-size: 1.5625rem;
+	font-weight: normal;
+	line-height: 2em;
+	border-radius: 1.6875rem;
+	transition: all 0.5s ease;
+	margin-right: 0.25rem;
+	margin-bottom: 0.25rem;
+  }
+  
+  .rounded-social-buttons .social-button:hover, .rounded-social-buttons .social-button:focus {
+	-webkit-transform: rotate(360deg);
+		-ms-transform: rotate(360deg);
+			transform: rotate(360deg);
+  }
+  
+  .rounded-social-buttons .fa-twitter, .fa-facebook-f, .fa-linkedin, .fa-youtube, .fa-instagram {
+	font-size: 25px;
+  }
+  
+  .rounded-social-buttons .social-button.facebook {
+	background: #3b5998;
+  }
+  
+  .rounded-social-buttons .social-button.facebook:hover, .rounded-social-buttons .social-button.facebook:focus {
+	color: #3b5998;
+	background: #fefefe;
+	border-color: #3b5998;
+  }
+  
+  .rounded-social-buttons .social-button.twitter {
+	background: #55acee;
+  }
+  
+  .rounded-social-buttons .social-button.twitter:hover, .rounded-social-buttons .social-button.twitter:focus {
+	color: #55acee;
+	background: #fefefe;
+	border-color: #55acee;
+  }
+  
+  .rounded-social-buttons .social-button.linkedin {
+	background: #007bb5;
+  }
+  
+  .rounded-social-buttons .social-button.linkedin:hover, .rounded-social-buttons .social-button.linkedin:focus {
+	color: #007bb5;
+	background: #fefefe;
+	border-color: #007bb5;
+  }
+  
+  
+  .rounded-social-buttons .social-button.youtube {
+	background: #bb0000;
+  }
+  
+  .rounded-social-buttons .social-button.youtube:hover, .rounded-social-buttons .social-button.youtube:focus {
+	color: #bb0000;
+	background: #fefefe;
+	border-color: #bb0000;
+  }
+  
+  .rounded-social-buttons .social-button.instagram {
+	background: #125688;
+  }
+  
+  .rounded-social-buttons .social-button.instagram:hover, .rounded-social-buttons .social-button.instagram:focus {
+	color: #125688;
+	background: #fefefe;
+	border-color: #125688;
+  }
+
+
+.nav-link {
+    position: relative;
+    padding: 0 !important;
+    margin: 0 10px;
+}
+.nav-link:hover{
+	color: #fff;
+}
+.nav-link::after, .footer-link::after {
+    content: '';
+    position: absolute;
+    background-color: #eeff00;
+    width: 0;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    transition: width 0.3s ease;
+}
+
+.nav-link:hover::after, .footer-link:hover::after{
+    width: 100%;
+}
+
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.submit-btn{
+	background-color: #eeff00;
+	color:#000;
+	text-decoration: none !important;
+	transition: all 0.5s;
+	margin-top:0;
+}
+
+.submit-btn:hover{
+	transform: scale(1.2);
+	
+}
